@@ -23,33 +23,19 @@
 
         <!-- FOOTER -->
         <footer class="footer-container color-scheme-<?php echo esc_attr( woodmart_get_opt( 'footer-style' ) ); ?>">
-            <section id="contacto" class="template-section padding-50">
-                <div class="contenedor">
-                    <h2>¡CONTÁCTAME HOY!</h2>
-
-                    <div class="flex">
-                        <div class="columna">
-                            <?php echo do_shortcode('[caldera_form id="CF5a6fad0d3968e"]'); ?>
-                        </div>
-                        <div class="columna">
-                           <div id="mailing">
-                               
-                               <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/mail.png" alt="Email">
-                                <a class="email" href="mailto:contacto@claussaludable.com">contacto@claussaludable.com</a>
-                           </div>
-                            
-
-                            <div class="redes mov-inversion">
-                                <h3>Sígueme en: </h3>
-                                <div class="redes">
-                                    <a target="_blank" href="https://www.facebook.com/ClausSaludable"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/facebook.png" alt="Facebook"></a>
-                                    <a target="_blank" href="https://www.instagram.com/claussaludable/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/instagram.png" alt="Instagram"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <section id="networks">
+        
+        <div class="contain">
+            
+             <div class="center">
+                 
+                 <p id="redes"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/facebook.png" alt="facebook"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/instagram.png" alt="instagram">/CervezaSalomé  </p>
+                 
+             </div>
+            
+        </div>
+        
+    </section>
 
             <?php
 			if ( ! $disable_footer_page && woodmart_get_opt( 'disable_footer' ) ) {

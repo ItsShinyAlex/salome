@@ -2,6 +2,9 @@
 .brown {
   color: #c4af6b !important;
 }
+.cafe {
+  color: #c19758 !important;
+}
 .white {
   color: white;
 }
@@ -140,10 +143,14 @@ b {
   max-width: 1222px;
   margin: auto;
 }
+.shiny-template .contanedor {
+  max-width: 1350px;
+  margin: auto;
+}
 .shiny-template #mexicana {
   min-height: 1800px;
   padding: 0 40px;
-  background: url(../img/home/bottle.png) no-repeat;
+  background: url(../img/home/bottle2.png) no-repeat;
 }
 .shiny-template #mexicana h1 {
   position: relative;
@@ -195,8 +202,12 @@ b {
   padding-top: 420px;
 }
 .shiny-template #contacto {
-  background: url(../img/home/back-trigo.png) right no-repeat;
-  padding-top: 120px;
+  background: url(../img/home/back-trigo2.png) right no-repeat;
+  min-height: 1551px;
+  padding: 0px 40px;
+}
+.shiny-template #contacto h2 {
+  margin-top: 120px;
 }
 .shiny-template #contacto .brown {
   font-size: 30px;
@@ -215,4 +226,59 @@ b {
 }
 .shiny-template #contacto .flex {
   margin-bottom: 40px;
+}
+#networks {
+  background: url(../img/home/footer.jpg) no-repeat;
+  padding: 50px 0;
+}
+#networks img {
+  margin-right: 15px;
+}
+#networks p {
+  color: white;
+  position: relative;
+  top: 10px;
+}
+/**PRESENTACION**/
+#dorada {
+  min-height: 1800px;
+  padding: 0 40px;
+  background: url(../img/presentacion/Splash.png) no-repeat center left;
+}
+#dorada h1 {
+  position: relative;
+  left: 40%;
+  top: 380px;
+}
+#info {
+  padding-bottom: 100px;
+}
+#info .center {
+  display: block;
+  max-width: 850px;
+}
+#info .cafe {
+  color: #c19758;
+  font-weight: bold;
+}
+#beer {
+  background: url(../img/presentacion/hojabeer.png) no-repeat left;
+  margin-bottom: -208px;
+}
+#beer .btn-salome {
+  background: url(../img/presentacion/pedido.png) center no-repeat;
+  position: relative;
+  z-index: 999;
+  font-size: 24px;
+  bottom: 80px!important;
+}
+#beer .reducir {
+  width: 80%;
+  position: relative;
+}
+#beer .hoja {
+  display: none;
+  position: relative;
+  top: 69px;
+  left: -108px;
 }
