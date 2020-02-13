@@ -57,7 +57,7 @@ echo "<section id ='shiny-salome' class='shiny-template' >";
              <div class="center fcentered">
                  
                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/aliada.png" alt="Salome es la perfecta aliada para tu antro, restaurant o taqueria">
-                <a href="" class="btn-salome">Saber más</a>
+                <a href="" class="btn-salome">Hacer pedido</a>
                  
              </div>
 

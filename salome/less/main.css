@@ -15,7 +15,7 @@
   font-style: normal;
 }
 .moa {
-  font-family: 'moa';
+  font-family: 'moa' !important;
 }
 @font-face {
   font-family: 'ice';
@@ -56,6 +56,9 @@ b {
 }
 .container {
   width: 100%;
+}
+.center {
+  text-align: center;
 }
 .container {
   max-width: 2000px !important;
@@ -185,9 +188,14 @@ b {
   z-index: 999;
   bottom: 115px;
 }
+.shiny-template #beer2 .btn-salome {
+  position: relative;
+  z-index: 999;
+  bottom: 115px;
+}
 .shiny-template #alfaro {
   position: relative;
-  top: -220px;
+  top: -242px;
   margin-bottom: -220px;
   padding-top: 200px;
   background: url(../img/home/backwood.png) center no-repeat;
@@ -228,8 +236,8 @@ b {
   margin-bottom: 40px;
 }
 #networks {
-  background: url(../img/home/footer.jpg) no-repeat;
-  padding: 50px 0;
+  background: url(../img/home/footer.jpg) no-repeat center;
+  padding: 47px 0;
 }
 #networks img {
   margin-right: 15px;
@@ -261,10 +269,6 @@ b {
   color: #c19758;
   font-weight: bold;
 }
-#beer {
-  background: url(../img/presentacion/hojabeer.png) no-repeat left;
-  margin-bottom: -208px;
-}
 #beer .btn-salome {
   background: url(../img/presentacion/pedido.png) center no-repeat;
   position: relative;
@@ -281,4 +285,88 @@ b {
   position: relative;
   top: 69px;
   left: -108px;
+}
+#beer2 {
+  background: url(../img/presentacion/hojabeer.png) no-repeat left;
+  margin-bottom: -208px;
+}
+#beer2 .btn-salome {
+  background: url(../img/presentacion/pedido.png) center no-repeat;
+  position: relative;
+  z-index: 999;
+  font-size: 24px;
+  bottom: 80px!important;
+}
+#beer2 .reducir {
+  width: 80%;
+  position: relative;
+}
+#beer2 .hoja {
+  display: none;
+  position: relative;
+  top: 69px;
+  left: -108px;
+}
+#somos {
+  background: url(../img/qs/fondoqs.jpg) no-repeat left;
+  padding-top: 150px;
+  height: 1000px;
+}
+#somos p {
+  text-align: justify;
+}
+#somos p.empresa {
+  max-width: 400px;
+}
+#somos p.nuestra {
+  margin: auto;
+  max-width: 500px;
+  margin-top: 50px;
+}
+#somos .moa {
+  font-size: 25px;
+}
+#somos .linea {
+  margin-top: 20px;
+}
+#somos .botella {
+  margin-top: 40px;
+}
+#mision {
+  margin-top: 200px;
+  position: relative;
+  top: 50px;
+}
+#mision h2 {
+  font-size: 55px;
+}
+#mision p {
+  text-align: justify;
+}
+#vision {
+  padding: 200px 0;
+  background: url(../img/qs/fondohoja.png) no-repeat center right;
+}
+#vision h2 {
+  font-size: 55px;
+  text-align: center;
+}
+#vision h3 {
+  font-size: 35px;
+}
+#vision p {
+  text-align: center;
+  max-width: 300px;
+}
+#vision img {
+  margin-bottom: 20px;
+}
+#vision .brown2 {
+  font-size: 30px;
+  display: block;
+  max-width: 560px;
+  margin: auto;
+  margin-top: 30px;
+  position: relative;
+  top: 85px;
 }

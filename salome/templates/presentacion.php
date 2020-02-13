@@ -34,7 +34,7 @@ echo "<section id ='shiny-salome' class='shiny-template' >";
         </div>
 </section>
     
-        <section id="beer" class="template-section">
+        <section id="beer2" class="template-section">
         <div class="fondo">
          <div class="center fcentered">
             <div class="flex">

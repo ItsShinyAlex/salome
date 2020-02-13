@@ -15,7 +15,7 @@
   font-style: normal;
 }
 .moa {
-  font-family: 'moa';
+  font-family: 'moa' !important;
 }
 @font-face {
   font-family: 'ice';
