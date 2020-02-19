@@ -55,7 +55,7 @@ echo "<section id ='shiny-salome' class='shiny-template' >";
    
 <section id="vision" class="template-section">
  <div class="contain">
-        <h2 class="moa cafe">Visión</h2>
+        <h2 class="moa cafe">Valores</h2>
          <div class="flex ">
        
                      <div class="col txt center fcentered">

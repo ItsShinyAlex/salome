@@ -1,22 +1,18 @@
 <?php
-    /* Template Name: Presentacion */ 
+    /* Template Name: Oscura */ 
     get_header();
 echo "<section id ='shiny-salome' class='shiny-template' >";
 ?>
 
 
-    <section id="dorada" class="template-section">
+    <section id="oscura" class="template-section">
         <div class="contain">
           <div class="fcentered">
               
-              <div class=" center lap">
+              <div class=" center">
                   
-                  <h1><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/presentacion/txtslider.png" alt="Dorada, Brillante y refrescante"></h1>
-                  
-              </div>
-              <div class=" center movil">
-                  
-                  <h1><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/presentacion/txtslidermovil.png" alt="Dorada, Brillante y refrescante"></h1>
+                  <h1 class="lap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/presentacion/txtslider2.png" alt="Dorada, Brillante y refrescante"></h1>
+                  <h1 class="movil"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/presentacion/txtslider2movil.png" alt="Dorada, Brillante y refrescante"></h1>
                   
               </div>
               
@@ -30,8 +26,9 @@ echo "<section id ='shiny-salome' class='shiny-template' >";
           <div class="fcentered">
               
               <div class="center">
-              <p><strong>La Cerveza Salomé</strong> es una cerveza dorada tipo pilsner con un cuerpo brillante, ligero y refrescante. Cuenta con un amargor ligero y sabores florales de los lúpulos que entran en un balance perfecto con los sabores de la Malta.</p>
-              <p class="cafe">¡Déjate seducir!</p>
+              <p><strong>La Cerveza Salomé tipo Vienna</strong> tiene un ligero aroma a maltas tostadas y caramelo, carácter limpio, aroma a lúpulos florales y especiados.</p>
+              <p>Tiene un color color rojizo oscuro y su sabor es suave, fresco y elegante. </p>
+              <p class="cafe"> ¡Cae en esta oscura tentación!</p>
               <p>En Cervecería Alfaro queremos brindarte la mejor experiencia por eso creamos cerveza cercana a la perfección.</p>
               </div>
               
@@ -42,7 +39,7 @@ echo "<section id ='shiny-salome' class='shiny-template' >";
         <section id="beer2" class="template-section">
         <div class="fondo">
          <div class="center fcentered">
-            <div class="flex flex2">
+            <div class="flex">
              <div class="columna lap">
              <img class="hoja" src="<?php echo get_stylesheet_directory_uri(); ?>/img/presentacion/hojabeer.png" alt="Salome es la perfecta aliada para tu antro, restaurant o taqueria">
              

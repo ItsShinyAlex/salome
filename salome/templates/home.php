@@ -9,7 +9,12 @@ echo "<section id ='shiny-salome' class='shiny-template' >";
         <div class="contain">
           <div class="fcentered">
               
-              <div class=" center">
+              <div class=" center lap">
+                  
+                  <h1><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/txtslide.png" alt="Es mexicana, es divina, es única y cercana a la perfección, se llama Salomé"></h1>
+                  
+              </div>
+              <div class="center movil">
                   
                   <h1><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/txtslide.png" alt="Es mexicana, es divina, es única y cercana a la perfección, se llama Salomé"></h1>
                   
@@ -22,11 +27,11 @@ echo "<section id ='shiny-salome' class='shiny-template' >";
     
     <section id="seducir" class="template-section">
         <div class="contain">
-         <div class="flex">
-             
-             <div class="col txt">
+         <div class="flex flex2">
+             <h2 class="movil"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/seducirmovil.png" alt="Dejate seducir por Salome"> </h2>
+             <div class="col col_especial txt">
                  
-                <h2><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/seducir.png" alt="Dejate seducir por Salome"> </h2>
+                <h2 class="lap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/seducir.png" alt="Dejate seducir por Salome"> </h2>
                 <p>
                     
                     Su nombre significa <b>"aquella cercana a la perfección"</b> y así es Salomé, joven, misteriosa, interesante, delicada, deliciosa, una buena compañía en todo lugar.
@@ -35,17 +40,25 @@ echo "<section id ='shiny-salome' class='shiny-template' >";
                     
                 </p>
                 
-                <a href="" class="btn-salome">Saber más</a>
+                <a class="lap btn-salome" href="https://cerveceriaalfaro.com/qs/" >Saber más</a>
                 
                  
              </div>
-             <div class="col cerveza fcentered">
-                 <div class="center"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/botella.png" alt="cerveza salome"></div>
+             <div class="col cerveza fcentered lap">
+                 <div class="center lap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/botella.png" alt="cerveza salome"></div>
+                 
+                 
+             </div>
+             <div class="col col_especial2 cerveza fcentered movil">
+                 <div class="center movil"><img class="botella" src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/botellamovil.png" alt="cerveza salome"></div>
                  
                  
              </div>
              
          </div>
+         <div class="fcentered movil">
+         <a href="https://cerveceriaalfaro.com/qs/" class="btn-salome movil">Saber más</a>
+            </div>
         </div>
     </section>
     
@@ -57,7 +70,7 @@ echo "<section id ='shiny-salome' class='shiny-template' >";
              <div class="center fcentered">
                  
                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/aliada.png" alt="Salome es la perfecta aliada para tu antro, restaurant o taqueria">
-                <a href="" class="btn-salome">Hacer pedido</a>
+                <a href="https://cerveceriaalfaro.com/inicio/#contacto" class="btn-salome">Hacer pedido</a>
                  
              </div>
 
@@ -65,6 +78,8 @@ echo "<section id ='shiny-salome' class='shiny-template' >";
          </div>
         </div>
     </section>
+ 
+    
     
     
       <section id="alfaro" class="template-section">
@@ -81,7 +96,7 @@ echo "<section id ='shiny-salome' class='shiny-template' >";
 
                         </p>
 
-                        <a href="" class="btn-salome">Saber más</a>
+                        <a href="https://cerveceriaalfaro.com/qs/" class="btn-salome">Saber más</a>
 
 
                      </div>
@@ -113,7 +128,7 @@ echo "<section id ='shiny-salome' class='shiny-template' >";
                     <div class="col" id="form-col">
 
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/logo.png" alt="cerveza salome">
-                            <?php echo do_shortcode('[caldera_form id="CF5d8051a0804fa"]');?>
+                            <?php echo do_shortcode('[caldera_form id="CF5e14ef6d8486d"]');?>
                             
 
                     </div>
@@ -158,7 +173,8 @@ echo "<section id ='shiny-salome' class='shiny-template' >";
                      
                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/mail.png" alt="mail">
                      
-                     <p>contacto@cervezasalome.com</p>
+                     <p class="lap">contacto@cervezasalome.com</p>
+                     <p class="movil correo">contacto@cervezasalome.com</p>
                      
                  </div>
                  
@@ -170,19 +186,8 @@ echo "<section id ='shiny-salome' class='shiny-template' >";
             </div>
     </section>
     
-    <section id="networks">
-        
-        <div class="contain">
-            
-             <div class="center">
-                 
-                 <p id="redes"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/facebook.png" alt="facebook"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/instagram.png" alt="instagram">/CervezaSalomé  </p>
-                 
-             </div>
-            
-        </div>
-        
-    </section>
+   
+   
 
     
 

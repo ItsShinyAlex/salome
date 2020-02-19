@@ -28,7 +28,12 @@
 }
 body {
   font-family: 'ice';
-  background-color: black !important;
+  background-color: black!important;
+}
+.nav-link-text {
+  font-family: 'ice';
+  color: white;
+  font-size: 20px;
 }
 h1,
 h2,
@@ -48,8 +53,15 @@ b {
 .hide {
   display: none !important;
 }
+.sub-menu-dropdown.color-scheme-dark {
+  background-color: black;
+}
 .container {
   max-width: 2000px;
+}
+.website-wrapper,
+.main-page-wrapper {
+  background-color: black!important;
 }
 .content-layout-wrapper {
   display: block !important;
@@ -78,6 +90,12 @@ b {
 .texto-blanco,
 .white {
   color: #fff;
+}
+.movil {
+  display: none;
+}
+.lap {
+  display: inherit;
 }
 .template-section p,
 .template-section a,
@@ -165,6 +183,9 @@ b {
   top: -600px;
   margin-bottom: -500px;
 }
+.shiny-template #seducir .col_especial2 {
+  display: none;
+}
 .shiny-template #seducir p {
   padding-top: 40px;
   text-align: justify;
@@ -188,10 +209,8 @@ b {
   z-index: 999;
   bottom: 115px;
 }
-.shiny-template #beer2 .btn-salome {
-  position: relative;
-  z-index: 999;
-  bottom: 115px;
+.shiny-template .center {
+  text-align: center;
 }
 .shiny-template #alfaro {
   position: relative;
@@ -210,8 +229,8 @@ b {
   padding-top: 420px;
 }
 .shiny-template #contacto {
-  background: url(../img/home/back-trigo2.png) right no-repeat;
-  min-height: 1551px;
+  background: url(../img/home/contacto.png) top right no-repeat;
+  min-height: 1295px;
   padding: 0px 40px;
 }
 .shiny-template #contacto h2 {
@@ -235,6 +254,42 @@ b {
 .shiny-template #contacto .flex {
   margin-bottom: 40px;
 }
+.shiny-template #contacto input,
+.shiny-template #contacto textarea {
+  font-family: 'ice';
+  color: black;
+}
+.shiny-template #contacto .caldera-grid .form-control,
+.shiny-template #contacto .caldera-grid output {
+  color: black!important;
+}
+.shiny-template #contacto .caldera-grid .form-control {
+  background-color: white!important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.55) !important;
+  border: none!important;
+}
+.shiny-template #contacto .caldera-grid .form-control::placeholder {
+  color: black!important;
+}
+.shiny-template #contacto #fld_659548_1-wrap {
+  text-align: right;
+}
+.shiny-template #contacto .btn {
+  transition: all 0.3s ease-in-out;
+  font-family: 'ice' !important;
+  text-transform: none;
+  font-size: 1.2em;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  padding: 15px 40px;
+  background: #002235;
+  color: white;
+}
+.shiny-template #contacto .btn:hover {
+  background: white;
+  color: #002235;
+}
 #networks {
   background: url(../img/home/footer.jpg) no-repeat center;
   padding: 47px 0;
@@ -256,6 +311,16 @@ b {
 #dorada h1 {
   position: relative;
   left: 40%;
+  top: 380px;
+}
+#oscura {
+  min-height: 1800px;
+  padding: 0 40px;
+  background: url(../img/presentacion/oscura.png) no-repeat center right;
+}
+#oscura h1 {
+  position: relative;
+  right: 25%;
   top: 380px;
 }
 #info {
@@ -369,4 +434,199 @@ b {
   margin-top: 30px;
   position: relative;
   top: 85px;
+}
+@media (max-width: 768px) {
+  .offcanvas-sidebar-mobile .woodmart-sticky-sidebar-opener {
+    display: none;
+  }
+  a.woodmart-sticky-sidebar-opener {
+    display: none!important;
+  }
+}
+@media screen and (max-width: 750px) {
+  .nav-link-text {
+    font-family: 'ice';
+    color: black;
+    font-size: 20px;
+  }
+  .sub-menu-dropdown.color-scheme-dark {
+    background-color: white;
+  }
+  span.woodmart-burger.wd-tools-icon {
+    color: #b59254;
+    /* border: 3px; */
+  }
+  .movil {
+    display: inherit;
+  }
+  .lap {
+    display: none;
+  }
+  /*LOGO*/
+  .whb-scroll-stick .woodmart-logo img {
+    padding-top: 0;
+    transform: scale(2) translateY(15px);
+  }
+  canvas {
+    touch-action: auto !important;
+  }
+  .scene-nav {
+    display: none;
+  }
+  /*Esquema por defecto para las secciones*/
+  .grid .col {
+    width: 100%;
+  }
+  .grid .col2 {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .grid.invertido {
+    flex-wrap: wrap-reverse;
+  }
+  .template-section a.btn {
+    margin: 0 auto;
+    display: block;
+  }
+  .flex {
+    display: inherit;
+  }
+  .flex2 {
+    display: flex;
+  }
+  .template-section .columna {
+    width: 100%;
+  }
+  .template-section .col {
+    width: 100%;
+    min-height: auto;
+  }
+  .template-section .col3 {
+    width: 100%;
+  }
+  .template-section p {
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  .template-section h2 {
+    font-size: 4.1em;
+    line-height: 0.9em;
+  }
+  #oscura {
+    min-height: 700px;
+    padding: 0 40px;
+    background: url(../img/presentacion/oscuramovil.png) no-repeat center;
+  }
+  #oscura h1 {
+    right: 40%;
+    top: 85px;
+  }
+  #oscura img {
+    width: 85%;
+  }
+  #dorada {
+    min-height: 700px;
+    padding: 0 40px;
+    background: url(../img/presentacion/Splashmovil.png) no-repeat center;
+  }
+  #dorada h1 {
+    left: 25%;
+    top: 85px;
+  }
+  #dorada img {
+    width: 85%;
+  }
+  #beer2 {
+    background: none;
+    margin-bottom: -250px;
+  }
+  #beer2 .reducir {
+    width: 100%;
+  }
+  #beer2 .btn-salome {
+    background: url(../img/presentacion/pedidomovil.png) center no-repeat;
+    bottom: 180px!important;
+  }
+  #beer {
+    margin-bottom: -22px;
+    float: inherit;
+    background: none;
+  }
+  #beer .reducir {
+    width: 100%;
+  }
+  #beer .btn-salome {
+    background: url(../img/presentacion/pedidomovil.png) center no-repeat;
+  }
+  #vision {
+    padding: 200px 0;
+    background: none;
+  }
+  #somos {
+    padding-top: 75px;
+  }
+  .shiny-template #mexicana {
+    min-height: 1100px;
+    padding: 0 40px;
+    background: url(../img/home/bottle2movil.png) no-repeat;
+  }
+  .shiny-template #mexicana h1 {
+    position: relative;
+    left: 9%;
+    top: 411px;
+  }
+  #seducir {
+    margin-bottom: -190px;
+  }
+  #seducir .col_especial2 {
+    display: inherit!important;
+  }
+  #seducir .btn-salome {
+    float: inherit!important;
+    text-align: center!important;
+    position: relative!important;
+    top: 40px!important;
+    right: inherit!important;
+  }
+  #seducir h2 {
+    position: relative;
+    top: 115px;
+    margin: auto;
+  }
+  #seducir .col {
+    width: 50%;
+  }
+  #seducir img {
+    height: auto!important;
+  }
+  #seducir .col_especial {
+    width: 70%;
+  }
+  #seducir .col_especial2 {
+    width: 30%;
+  }
+  #seducir p {
+    text-align: center!important;
+    padding: initial;
+  }
+  #seducir .botella {
+    position: relative;
+    top: 68px;
+  }
+  #alfaro .cerveza {
+    padding-top: 68px!important;
+  }
+  #contacto {
+    background: url(../img/home/contactosalome.png) right no-repeat !important;
+  }
+  #contacto .brown {
+    font-size: 30px!important;
+    padding: inherit!important;
+    margin-bottom: 100px!important;
+  }
+  .correo {
+    position: relative;
+    right: 20px;
+  }
 }
